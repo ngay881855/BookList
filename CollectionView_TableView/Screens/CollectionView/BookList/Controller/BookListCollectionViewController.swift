@@ -49,8 +49,7 @@ class BookListCollectionViewController: UICollectionViewController {
                     self.itemInfos.append(contentsOf: self.itemInfos)
                     self.collectionView.reloadData()
                 }
-            }
-            catch {
+            } catch {
                 print(error)
             }
         }
@@ -62,7 +61,6 @@ class BookListCollectionViewController: UICollectionViewController {
         // #warning Incomplete implementation, return the number of sections
         return 1
     }
-    
     
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of items
@@ -82,8 +80,8 @@ class BookListCollectionViewController: UICollectionViewController {
     // MARK: UICollectionViewDelegate
     
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let SB = UIStoryboard(name: "Main", bundle: nil)
-        guard let detailVC = SB.instantiateViewController(withIdentifier: "BookDetailViewController") as? BookDetailViewController else {
+        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+        guard let detailVC = storyBoard.instantiateViewController(withIdentifier: "BookDetailViewController") as? BookDetailViewController else {
             return
         }
         detailVC.volumeInfo = itemInfos[indexPath.row].volumeInfo

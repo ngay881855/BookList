@@ -131,10 +131,10 @@
             </objects>
             <point key="canvasLocation" x="-1184" y="-168"/>
         </scene>
-        <!--View Controller-->
+        <!--Book List View Controller-->
         <scene sceneID="NEw-Rq-W4y">
             <objects>
-                <viewController id="kJI-ik-pli" customClass="ViewController" customModule="CollectionView_TableView" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="kJI-ik-pli" customClass="BookListViewController" customModule="CollectionView_TableView" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qDf-gq-8aO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -198,18 +198,26 @@
                                     <outlet property="delegate" destination="kJI-ik-pli" id="fsM-4c-nu7"/>
                                 </connections>
                             </tableView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="4no-31-voC">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="pTs-Pm-0fa"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="uw3-Pc-1K3" firstAttribute="top" secondItem="pTs-Pm-0fa" secondAttribute="top" id="59T-3N-Q8Z"/>
+                            <constraint firstAttribute="bottom" secondItem="4no-31-voC" secondAttribute="bottom" id="GRE-Lg-lde"/>
+                            <constraint firstItem="4no-31-voC" firstAttribute="leading" secondItem="qDf-gq-8aO" secondAttribute="leading" id="SfZ-qa-eQz"/>
                             <constraint firstItem="uw3-Pc-1K3" firstAttribute="leading" secondItem="pTs-Pm-0fa" secondAttribute="leading" id="Ui8-0D-mVj"/>
+                            <constraint firstAttribute="trailing" secondItem="4no-31-voC" secondAttribute="trailing" id="WqT-FD-Qqo"/>
+                            <constraint firstItem="4no-31-voC" firstAttribute="top" secondItem="qDf-gq-8aO" secondAttribute="top" id="hev-Cr-MqM"/>
                             <constraint firstItem="pTs-Pm-0fa" firstAttribute="trailing" secondItem="uw3-Pc-1K3" secondAttribute="trailing" id="kO9-cP-Sse"/>
                             <constraint firstItem="pTs-Pm-0fa" firstAttribute="bottom" secondItem="uw3-Pc-1K3" secondAttribute="bottom" id="qgJ-dA-Xfb"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="L63-Gj-DKV"/>
                     <connections>
+                        <outlet property="activityIndicator" destination="4no-31-voC" id="vgI-BW-YwM"/>
                         <outlet property="tableView" destination="uw3-Pc-1K3" id="Upp-uS-Zzx"/>
                     </connections>
                 </viewController>
@@ -231,9 +239,6 @@
                                 <imageView key="tableHeaderView" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="E5q-Qo-blQ">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="240"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <constraints>
-                                        <constraint firstAttribute="width" secondItem="E5q-Qo-blQ" secondAttribute="height" multiplier="1:1" id="Jdd-y5-Ss2"/>
-                                    </constraints>
                                 </imageView>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="BookDetailTableViewCell" rowHeight="85" id="Ljr-Ym-19c" customClass="BookDetailTableViewCell" customModule="CollectionView_TableView" customModuleProvider="target">
@@ -248,6 +253,7 @@
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
+                                                    <size key="shadowOffset" width="0.0" height="0.0"/>
                                                 </label>
                                                 <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3jv-3S-sdp">
                                                     <rect key="frame" x="123.5" y="10" width="280.5" height="65"/>

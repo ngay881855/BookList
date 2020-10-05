@@ -1,6 +1,6 @@
 //
 //  ServiceManager.swift
-//  Design Pattern
+// CollectionView_TableView
 //
 //  Created by Ngay Vong on 9/17/20.
 //

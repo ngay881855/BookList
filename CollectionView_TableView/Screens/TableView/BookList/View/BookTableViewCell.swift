@@ -1,6 +1,6 @@
 //
 //  BookTableViewCell.swift
-//  Design Pattern
+// CollectionView_TableView
 //
 //  Created by Ngay Vong on 9/21/20.
 //

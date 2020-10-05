@@ -1,6 +1,6 @@
 //
 //  ApiResponse.swift
-//  Design Pattern
+// CollectionView_TableView
 //
 //  Created by Ngay Vong on 9/18/20.
 //
@@ -8,7 +8,7 @@
 import Foundation
 
 // Adopt Decodable protocol so we can convert dictionary data to class or struct data
-struct ApiResponse: Decodable{
+struct ApiResponse: Decodable {
     var bookKind: String?
     var totalItems: Int?
     var items: [ItemInfo]?
@@ -106,4 +106,13 @@ struct AccessInfo: Decodable {
 
 struct PdfInfo: Decodable {
     var acsTokenLink: String?
+}
+
+struct  BooksInfo: Decodable {
+    var publisher: String?
+    var publishDate: Date?
+    var bookName: String
+    var description: String
+    var authors: [String]
+    var bookID: String
 }

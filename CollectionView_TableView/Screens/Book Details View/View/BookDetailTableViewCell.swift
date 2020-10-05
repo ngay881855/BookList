@@ -1,6 +1,6 @@
 //
 //  BookDetailTableViewCell.swift
-//  Design Pattern
+// CollectionView_TableView
 //
 //  Created by Ngay Vong on 9/22/20.
 //
@@ -11,11 +11,11 @@ class BookDetailTableViewCell: UITableViewCell {
 
     @IBOutlet weak var keyLabel: UILabel!
     @IBOutlet weak var valueLabel: UILabel!
-    
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        
+
         self.selectionStyle = .none
     }
 

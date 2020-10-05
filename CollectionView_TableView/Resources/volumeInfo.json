@@ -1,0 +1,902 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 1789,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "qbygDgAAQBAJ",
+      "etag": "lxgC26SLHeQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/qbygDgAAQBAJ",
+      "volumeInfo": {
+        "title": "My First Coding Book",
+        "subtitle": "Packed with flaps and lots more to help you code without a computer!",
+        "authors": [
+          "Kiki Prottsman"
+        ],
+        "publisher": "Penguin",
+        "publishedDate": "2017-07-04",
+        "description": "Teach kids as young as 5 years old the basic programming skills necessary to code, including sequencing and loops, without a computer. It's never too early to learn computer coding. My First Coding Book is a playful introduction to offline coding and programming that will give young children a head start. Filled with puzzles, mazes, and games to teach the basic concepts of sequences, algorithms, and debugging, this book will help children develop critical thinking, logic, and other skills to cement lifelong computer literacy, which is extremely valuable and sought-after in today's world. With its unique approach and colorful and creative imagery, My First Coding Book makes learning and fun one and the same and will have children playing their way to programming proficiency. Supporting STEM education initiatives, computer coding teaches kids how to think creatively, work collaboratively, and reason systematically, and is quickly becoming a necessary and sought-after skill. DK's computer coding books are full of fun exercises with step-by-step guidance, making them the perfect introductory tools for building vital skills in computer programming.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781465469731"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1465469737"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 24,
+        "printType": "BOOK",
+        "categories": [
+          "Juvenile Nonfiction"
+        ],
+        "averageRating": 1,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.1.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=qbygDgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=qbygDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=qbygDgAAQBAJ&printsec=frontcover&dq=coding&hl=&cd=1&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=qbygDgAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=qbygDgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 9.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 9.99,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=qbygDgAAQBAJ&rdid=book-qbygDgAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 9990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 9990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/My_First_Coding_Book-sample-pdf.acsm?id=qbygDgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=qbygDgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Filled with puzzles, mazes, and games to teach the basic concepts of sequences, algorithms, and debugging, this book will help children develop critical thinking, logic, and other skills to cement lifelong computer literacy, which is ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "3GGVSEHsNSgC",
+      "etag": "uCpo7UonN9M",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/3GGVSEHsNSgC",
+      "volumeInfo": {
+        "title": "Information Coding Techniques",
+        "authors": [
+          "J.S.Chitode"
+        ],
+        "publisher": "Technical Publications",
+        "publishedDate": "2007-06",
+        "description": "Information Entropy FundamentalsUncertainty, Information and entropy - Source coding theorem - Huffman coding - Shannon fano coding - Discrete memory less channels - Channel capacity - Channel coding theorem - Channel capacity theorem.Data and Voice CodingDifferential pulse code modulation - Adaptive differential pulse code modulation - Adaptive subband coding - Delta modulation - Adaptive delta modulation - Coding of speech signal at low bit rates (Vocoders, LPC).Error Control CodingLinear block codes - Syndrome decoding - Minimum distance consideration - Cyclic codes - Generator polynomial - Parity check polynomial - Encoder for cyclic codes - Calculation of syndrome - Convolutional codes.Compression TechniquesPrinciples - Text compression - Static Huffman coding - Dynamic Huffman coding - Arithmetic coding - Image compression - Graphics interchange format - Tagged image file format - Digitized documents - Introduction to JPEG standards.Audio and Video CodingLinear predictive coding - Code excited LPC - Perceptual coding, MPEG audio coders - Dolby audio coders - Video compression - Principles - Introduction to H.261 & MPEG Video standards.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "8189411691"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9788189411695"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 433,
+        "printType": "BOOK",
+        "categories": [
+          "Coding theory"
+        ],
+        "averageRating": 3,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=3GGVSEHsNSgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=3GGVSEHsNSgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=3GGVSEHsNSgC&pg=PA1&dq=coding&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=3GGVSEHsNSgC&dq=coding&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Information_Coding_Techniques.html?hl=&id=3GGVSEHsNSgC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=3GGVSEHsNSgC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "In this chapter we will study the concepts of Information, Entropy, Channel \u003cbr\u003e\ncapacity, Information rate etc. and some source \u003cb\u003ecoding\u003c/b\u003e techniques. 1.2 \u003cbr\u003e\nUncertainty Consider the source which emits the discrete symbols randomly from \u003cbr\u003e\nthe set of fixed&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "_Te7swEACAAJ",
+      "etag": "iFXiDwJk/Hs",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/_Te7swEACAAJ",
+      "volumeInfo": {
+        "title": "Computer Coding 4 Kids",
+        "authors": [
+          "Hinkler Books",
+          "Virginia King"
+        ],
+        "publishedDate": "2017-11",
+        "description": "Learning to code is worthwhile AND fun with this comprehensive guide! Computer Coding 4 Kids is the perfect way to give your child the support they need for this increasingly vital skill! With easy-to-follow explanations and games and challenges to reinforce learned skills, all designed by teachers and experts in the field, this book is an absolute must-have for the tech-savvy parent or guardian! Give your child the ultimate head-start in coding with Computer Coding 4 Kids!",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "148890992X"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781488909924"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 192,
+        "printType": "BOOK",
+        "categories": [
+          "Coding theory"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=_Te7swEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=_Te7swEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=_Te7swEACAAJ&dq=coding&hl=&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=_Te7swEACAAJ&dq=coding&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Computer_Coding_4_Kids.html?hl=&id=_Te7swEACAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=_Te7swEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Learning to code is worthwhile AND fun with this comprehensive guide! Computer Coding 4 Kids is the perfect way to give your child the support they need for this increasingly vital skill!"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "7OXRrsGC_0gC",
+      "etag": "J5hc9M1r7xg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/7OXRrsGC_0gC",
+      "volumeInfo": {
+        "title": "Source and Channel Coding",
+        "subtitle": "An Algorithmic Approach",
+        "authors": [
+          "John B. Anderson",
+          "Seshadri Mohan"
+        ],
+        "publisher": "Springer Science & Business Media",
+        "publishedDate": "1991-09-30",
+        "description": "oW should coded communication be approached? Is it about prob H ability theorems and bounds, or about algorithms and structures? The traditional course in information theory and coding teaches these together in one course in which the Shannon theory, a probabilistic the ory of information, dominates. The theory's predictions and bounds to performance are valuable to the coding engineer, but coding today is mostly about structures and algorithms and their size, speed and error performance. While coding has a theoretical basis, it has a practical side as well, an engineering side in which costs and benefits matter. It is safe to say that most of the recent advances in information theory and coding are in the engineering of coding. These thoughts motivate the present text book: A coded communication book based on methods and algorithms, with information theory in a necessary but supporting role. There has been muchrecent progress in coding, both inthe theory and the practice, and these pages report many new advances. Chapter 2 cov ers traditional source coding, but also the coding ofreal one-dimensional sources like speech and new techniques like vector quantization. Chapter 4 is a unified treatment of trellis codes, beginning with binary convolu tional codes and passing to the new trellis modulation codes.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0792392108"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780792392101"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 433,
+        "printType": "BOOK",
+        "categories": [
+          "Technology & Engineering"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=7OXRrsGC_0gC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=7OXRrsGC_0gC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=7OXRrsGC_0gC&pg=PA349&dq=coding&hl=&cd=4&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=7OXRrsGC_0gC&dq=coding&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Source_and_Channel_Coding.html?hl=&id=7OXRrsGC_0gC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Source_and_Channel_Coding-sample-pdf.acsm?id=7OXRrsGC_0gC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=7OXRrsGC_0gC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Since leaving source \u003cb\u003ecoding\u003c/b\u003e in Chapter 2, our discussions have focussed on \u003cbr\u003e\nchannel \u003cb\u003ecoding\u003c/b\u003e. We now return to source \u003cb\u003ecoding\u003c/b\u003e to discuss the application of the \u003cbr\u003e\ntree searching algorithms already described in the context of channel decoding."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "ey7UBwAAQBAJ",
+      "etag": "EEqb61LYKVA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ey7UBwAAQBAJ",
+      "volumeInfo": {
+        "title": "Source Coding Theory",
+        "authors": [
+          "Robert M. Gray"
+        ],
+        "publisher": "Springer Science & Business Media",
+        "publishedDate": "2012-12-06",
+        "description": "Source coding theory has as its goal the characterization of the optimal performance achievable in idealized communication systems which must code an information source for transmission over a digital communication or storage channel for transmission to a user. The user must decode the information into a form that is a good approximation to the original. A code is optimal within some class if it achieves the best possible fidelity given whatever constraints are imposed on the code by the available channel. In theory, the primary constraint imposed on a code by the channel is its rate or resolution, the number of bits per second or per input symbol that it can transmit from sender to receiver. In the real world, complexity may be as important as rate. The origins and the basic form of much of the theory date from Shan non's classical development of noiseless source coding and source coding subject to a fidelity criterion (also called rate-distortion theory) [73] [74]. Shannon combined a probabilistic notion of information with limit theo rems from ergodic theory and a random coding technique to describe the optimal performance of systems with a constrained rate but with uncon strained complexity and delay. An alternative approach called asymptotic or high rate quantization theory based on different techniques and approx imations was introduced by Bennett at approximately the same time [4]. This approach constrained the delay but allowed the rate to grow large.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781461316435"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "146131643X"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 188,
+        "printType": "BOOK",
+        "categories": [
+          "Technology & Engineering"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=ey7UBwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=ey7UBwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=ey7UBwAAQBAJ&printsec=frontcover&dq=coding&hl=&cd=5&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=ey7UBwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ey7UBwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE_AND_RENTAL",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 84.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 67.99,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=ey7UBwAAQBAJ&rdid=book-ey7UBwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 84990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 67990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          },
+          {
+            "finskyOfferType": 3,
+            "listPrice": {
+              "amountInMicros": 29750000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 25880000,
+              "currencyCode": "USD"
+            },
+            "rentalDuration": {
+              "unit": "DAY",
+              "count": 90
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Source_Coding_Theory-sample-pdf.acsm?id=ey7UBwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=ey7UBwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Source coding theory has as its goal the characterization of the optimal performance achievable in idealized communication systems which must code an information source for transmission over a digital communication or storage channel for ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "wgzyBwAAQBAJ",
+      "etag": "+Ep9EkUr5v0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/wgzyBwAAQBAJ",
+      "volumeInfo": {
+        "title": "Error-Correction Coding for Digital Communications",
+        "authors": [
+          "George C. Clark Jr.",
+          "J. Bibb Cain"
+        ],
+        "publisher": "Springer Science & Business Media",
+        "publishedDate": "2013-06-29",
+        "description": "Error-correction coding is being used on an almost routine basis in most new communication systems. Not only is coding equipment being used to increase the energy efficiency of communication links, but coding ideas are also providing innovative solutions to many related communication problems. Among these are the elimination of intersymbol interference caused by filtering and multipath and the improved demodulation of certain frequency modulated signals by taking advantage of the \"natural\" coding provided by a continuous phase. Although several books and nu merous articles have been written on coding theory, there are still noticeable deficiencies. First, the practical aspects of translating a specific decoding algorithm into actual hardware have been largely ignored. The information that is available is sketchy and is widely dispersed. Second, the information required to evaluate a particular technique under situations that are en countered in practice is available for the most part only in private company reports. This book is aimed at correcting both of these problems. It is written for the design engineer who must build the coding and decoding equipment and for the communication system engineer who must incorporate this equipment into a system. It is also suitable as a senior-level or first-year graduate text for an introductory one-semester course in coding theory. The book U\"Ses a minimum of mathematics and entirely avoids the classical theorem/proof approach that is often seen in coding texts.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781489921741"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1489921745"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 422,
+        "printType": "BOOK",
+        "categories": [
+          "Technology & Engineering"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=wgzyBwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=wgzyBwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=wgzyBwAAQBAJ&printsec=frontcover&dq=coding&hl=&cd=6&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=wgzyBwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=wgzyBwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE_AND_RENTAL",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 169,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 135.2,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=wgzyBwAAQBAJ&rdid=book-wgzyBwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 169000000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 135200000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          },
+          {
+            "finskyOfferType": 3,
+            "listPrice": {
+              "amountInMicros": 59150000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 51460000,
+              "currencyCode": "USD"
+            },
+            "rentalDuration": {
+              "unit": "DAY",
+              "count": 90
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Error_Correction_Coding_for_Digital_Comm-sample-pdf.acsm?id=wgzyBwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=wgzyBwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Among these are the elimination of intersymbol interference caused by filtering and multipath and the improved demodulation of certain frequency modulated signals by taking advantage of the &quot;natural&quot; coding provided by a continuous phase."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Pd7wP0kNrrYC",
+      "etag": "0IngniuXFJ8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Pd7wP0kNrrYC",
+      "volumeInfo": {
+        "title": "Cpt-4 Outpatient Coding Reference and Study Guide",
+        "authors": [
+          "Ba Kobayashi"
+        ],
+        "publisher": "Dog Ear Publishing",
+        "publishedDate": "2010-07",
+        "description": "Among the topics covered in Codebuster's CPT-4 Outpatient Coding Reference and Study Guide are outpatient guidelines, CPT format and conventions, plus terminology. This study guide assists HIM professionals prepare for professional coding exams such as the CCS, CCS-P, and CPC exams. The text serves as an excellent resource for coders who need to refresh or expand their CPT-4 coding skills. Coders can look up various diagnoses and procedures for the applicable coding guideline, while having access realistic coding scenarios that are likely to be similar to the coding problems experienced on the job. The book covers the surgery section of CPT-4 and Anesthesiology. Each chapter stands on its own; thus, the reader can go through the chapters in any order. There is a chapter-by-chapter analysis of the various body systems based on the surgery section of the CPT coding book. All chapters contain, in addition to the basic coding guidelines, critical coding questions, coding tips, coding examples, as well as a quiz at the end of each chapter. There is also a section on coding from operative reports. The operative reports are categorized by body system. The book is written in a step-by-step format and is very easy to follow. The content has been chosen to for two purposes: 1.Target the most frequently encountered coding situations in the outpatient setting. 2.Provide the knowledge base to master the outpatient coding concepts tested on the CCS Exam. The text has 226 short answer questions (CPT codes), 38 operative reports (ICD-9 and CPT codes), and 23 full medical record case studies (ICD-9 and CPT codes). Each question is highly relevant and reflects a coding situation most hospital-based outpatient coders will face. The text strives to ensure the reader understands every diagnosis and procedure discussed: thorough discussion of symptoms, standard treatment protocols, and medications.Coding examples and quizzes help clarify the information presented. 23 Case Studies have been constructed to mimic real-life outpatient medical records. Apply your knowledge from Chapters 1-15 and the Operative Reports to master coding from medical records. Each Case Study presents a complete medical record with associated ancillary documents. The records will test your ability to code in a live setting. Coders can assess their coding efficiency based on their accuracy and speed, critical for on the job practice and exam preparation. The Answer Key contains the rationale for how all codes were determined for the Case Studies. The text is updated every year to reflect the annual CPT coding changes. Linda Kobayashi, BA, RHIT, CCS, has been a coder and coding manager for almost 20 years. Since 1998, Ms. Kobayashi has owned and operated Codebusters, Inc., a nationwide coding consulting company. Widely regarded as a medical coding and auditing expert, she has conducted workshops on a variety of coding topics, including CCS Exam preparation workshops. Throughout her career the author has remained professionally active, as an AHIMA member as well as a member of her state association, CHIA (California health Information Association). Her formal training includes a teaching credential from California State University Los Angeles, a B.A. degree in English Literature from University of California Los Angeles, an RHIT from AHIMA after completing the RHIT program at East Los Angeles College, and a CCS certificate from AHIMA. Extensive experience as a hands-on coder, auditor and educator, and has given the author the expertise to help coders prepare for the professional coding environment.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781608445714"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1608445712"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 444,
+        "printType": "BOOK",
+        "categories": [
+          "Medicine"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.1.0.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Pd7wP0kNrrYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Pd7wP0kNrrYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=Pd7wP0kNrrYC&pg=PR13&dq=coding&hl=&cd=7&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=Pd7wP0kNrrYC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Pd7wP0kNrrYC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 79.2,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 63.36,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=Pd7wP0kNrrYC&rdid=book-Pd7wP0kNrrYC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 79200000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 63360000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Cpt_4_Outpatient_Coding_Reference_and_St-sample-pdf.acsm?id=Pd7wP0kNrrYC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Pd7wP0kNrrYC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "FOREWORD Thank you for purchasing Codebuster&#39;s Outpatient \u003cb\u003eCoding\u003c/b\u003e \u003cbr\u003e\nReference and Study Guide. This study guide is written to assist HIM \u003cbr\u003e\nprofessionals prepare for the CCS and the CCS-P exam as well as serve as an \u003cbr\u003e\nexcellent resource&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "NJ-PfDvn1lkC",
+      "etag": "1+kqQzWBK/I",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/NJ-PfDvn1lkC",
+      "volumeInfo": {
+        "title": "Distributed Source Coding",
+        "subtitle": "Theory, Algorithms and Applications",
+        "authors": [
+          "Pier Luigi Dragotti",
+          "Michael Gastpar"
+        ],
+        "publisher": "Academic Press",
+        "publishedDate": "2009-02-24",
+        "description": "The advent of wireless sensor technology and ad-hoc networks has made DSC a major field of interest. Edited and written by the leading players in the field, this book presents the latest theory, algorithms and applications, making it the definitive reference on DSC for systems designers and implementers, researchers, and graduate students. This book gives a clear understanding of the performance limits of distributed source coders for specific classes of sources and presents the design and application of practical algorithms for realistic scenarios. Material covered includes the use of standard channel codes, such as LDPC and Turbo codes, to DSC, and discussion of the suitability of compressed sensing for distributed compression of sparse signals. Extensive applications are presented and include distributed video coding, microphone arrays and securing biometric data. This book is a great resource covering the breadth and depth of distributed source coding that’s appropriate for everyone from theoreticians to practitioners. – Richard Baraniuk, Rice University *Clear explanation of the principles of distributed source coding (DSC), a technology that has applications in sensor networks, ad-hoc networks, and distributed wireless video systems for surveillance *Edited and written by the leading players in the field, providing a complete and authoritative reference *Contains all the latest theory, practical algorithms for DSC design and the most recently developed applications",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0080922740"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780080922744"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 360,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "2.7.4.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=NJ-PfDvn1lkC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=NJ-PfDvn1lkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=NJ-PfDvn1lkC&pg=PR19&dq=coding&hl=&cd=8&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=NJ-PfDvn1lkC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=NJ-PfDvn1lkC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 144,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 115.2,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=NJ-PfDvn1lkC&rdid=book-NJ-PfDvn1lkC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 144000000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 115200000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Distributed_Source_Coding-sample-epub.acsm?id=NJ-PfDvn1lkC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Distributed_Source_Coding-sample-pdf.acsm?id=NJ-PfDvn1lkC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=NJ-PfDvn1lkC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "In conventional source \u003cb\u003ecoding\u003c/b\u003e,a single encoder exploits the redundancy of the \u003cbr\u003e\nsource in order to perform compression. Applications such as wireless sensor \u003cbr\u003e\nand camera networks, however, involve multiple sources often separated in \u003cbr\u003e\nspace&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "hQ28LIoew5gC",
+      "etag": "6ke6P+riSX8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/hQ28LIoew5gC",
+      "volumeInfo": {
+        "title": "2008 Coding Workbook for the Physician's Office",
+        "authors": [
+          "Alice Covell"
+        ],
+        "publisher": "Cengage Learning",
+        "publishedDate": "2008-04-22",
+        "description": "This workbook contains coding exercises that reference each section of the CPT and ICD-9-CM coding manuals. Exercises requiring HCPCS Level II codes are also provided. Condition and procedure statements in the exercises reflect the current annual editions of the coding manuals. By completing the exercises, you will expand your medical vocabulary, improve coding skills for the physician's office, and learn to code only what the documentation supports. Also included are the Center for Medicare and Medicaid Services (CMS) guidelines for diagnosis coding and reporting by physicians. Learners need current CPT, ICD-9-CM, and HCPCS coding manuals to complete the exercises. Important Notice: Media content referenced within the product description or the product text may not be available in the ebook version.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781435425958"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1435425952"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 168,
+        "printType": "BOOK",
+        "categories": [
+          "Business & Economics"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=hQ28LIoew5gC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=hQ28LIoew5gC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=hQ28LIoew5gC&pg=PA2&dq=coding&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=hQ28LIoew5gC&dq=coding&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/2008_Coding_Workbook_for_the_Physician_s.html?hl=&id=hQ28LIoew5gC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=hQ28LIoew5gC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "\u003cb\u003eCoding\u003c/b\u003e can be significant in receiving, and keeping, payment for medical \u003cbr\u003e\nservices. One publication says that \u003cb\u003ecoding\u003c/b\u003e makes a 25% greater or lesser \u003cbr\u003e\ndifference in payment. It is the insurance policy language that defines payable \u003cbr\u003e\nbenefits."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "qeFT2eLZH-UC",
+      "etag": "cGcwjbTG/sk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/qeFT2eLZH-UC",
+      "volumeInfo": {
+        "title": "Space-Time Coding",
+        "authors": [
+          "Branka Vucetic",
+          "Jinhong Yuan"
+        ],
+        "publisher": "John Wiley & Sons",
+        "publishedDate": "2003-06-02",
+        "description": "The capacity of wireless data communications is lagging behind the demand. This text looks at the central issue in all the various coding structures which is the exploitation of multipath effects in order to achieve very high spectral efficiencies.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0470847573"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780470847572"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 302,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=qeFT2eLZH-UC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=qeFT2eLZH-UC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=qeFT2eLZH-UC&pg=PA149&dq=coding&hl=&cd=10&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=qeFT2eLZH-UC&dq=coding&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Space_Time_Coding.html?hl=&id=qeFT2eLZH-UC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Space_Time_Coding-sample-pdf.acsm?id=qeFT2eLZH-UC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=qeFT2eLZH-UC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Several bandwidth efficient turbo \u003cb\u003ecoding\u003c/b\u003e techniques have been proposed, \u003cbr\u003e\ncombining the principles of turbo codes and trellis codes. A turbo coded \u003cbr\u003e\nmodulation scheme with parity check puncturing [4] involves parallel \u003cbr\u003e\nconcatenation of two&nbsp;..."
+      }
+    }
+  ]
+}

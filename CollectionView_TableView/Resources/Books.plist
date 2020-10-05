@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>bookID</key>
+		<string>David123123</string>
+		<key>bookName</key>
+		<string>How to write Swift code</string>
+		<key>description</key>
+		<string>The book showing how people can write code better and smarter using Swift programing language</string>
+		<key>authors</key>
+		<array>
+			<string>Agil</string>
+			<string>David</string>
+		</array>
+		<key>publisher</key>
+		<string>David publishing</string>
+		<key>publishDate</key>
+		<date>2020-09-28T21:06:24Z</date>
+	</dict>
+	<dict>
+		<key>bookID</key>
+		<string>David123123</string>
+		<key>bookName</key>
+		<string>How to write Swift code</string>
+		<key>description</key>
+		<string>The book showing how people can write code better and smarter using Swift programing language</string>
+		<key>authors</key>
+		<array>
+			<string>Agil</string>
+			<string>David</string>
+		</array>
+		<key>publisher</key>
+		<string>David publishing</string>
+		<key>publishDate</key>
+		<date>2020-09-28T21:06:24Z</date>
+	</dict>
+	<dict>
+		<key>bookID</key>
+		<string>David123123</string>
+		<key>bookName</key>
+		<string>How to write Swift code</string>
+		<key>description</key>
+		<string>The book showing how people can write code better and smarter using Swift programing language</string>
+		<key>authors</key>
+		<array>
+			<string>Agil</string>
+			<string>David</string>
+		</array>
+		<key>publisher</key>
+		<string>David publishing</string>
+		<key>publishDate</key>
+		<date>2020-09-28T21:06:24Z</date>
+	</dict>
+	<dict>
+		<key>bookID</key>
+		<string>David123123</string>
+		<key>bookName</key>
+		<string>How to write Swift code</string>
+		<key>description</key>
+		<string>The book showing how people can write code better and smarter using Swift programing language</string>
+		<key>authors</key>
+		<array>
+			<string>Agil</string>
+			<string>David</string>
+		</array>
+		<key>publisher</key>
+		<string>David publishing</string>
+		<key>publishDate</key>
+		<date>2020-09-28T21:06:24Z</date>
+	</dict>
+	<dict>
+		<key>bookID</key>
+		<string>David123123</string>
+		<key>bookName</key>
+		<string>How to write Swift code</string>
+		<key>description</key>
+		<string>The book showing how people can write code better and smarter using Swift programing language</string>
+		<key>authors</key>
+		<array>
+			<string>Agil</string>
+			<string>David</string>
+		</array>
+		<key>publisher</key>
+		<string>David publishing</string>
+		<key>publishDate</key>
+		<date>2020-09-28T21:06:24Z</date>
+	</dict>
+	<dict>
+		<key>bookID</key>
+		<string>David123123</string>
+		<key>bookName</key>
+		<string>How to write Swift code</string>
+		<key>description</key>
+		<string>The book showing how people can write code better and smarter using Swift programing language</string>
+		<key>authors</key>
+		<array>
+			<string>Agil</string>
+			<string>David</string>
+		</array>
+		<key>publisher</key>
+		<string>David publishing</string>
+		<key>publishDate</key>
+		<date>2020-09-28T21:06:24Z</date>
+	</dict>
+	<dict>
+		<key>bookID</key>
+		<string>David123123</string>
+		<key>bookName</key>
+		<string>How to write Swift code</string>
+		<key>description</key>
+		<string>The book showing how people can write code better and smarter using Swift programing language</string>
+		<key>authors</key>
+		<array>
+			<string>Agil</string>
+			<string>David</string>
+		</array>
+		<key>publisher</key>
+		<string>David publishing</string>
+		<key>publishDate</key>
+		<date>2020-09-28T21:06:24Z</date>
+	</dict>
+	<dict>
+		<key>bookID</key>
+		<string>David123123</string>
+		<key>bookName</key>
+		<string>How to write Swift code</string>
+		<key>description</key>
+		<string>The book showing how people can write code better and smarter using Swift programing language</string>
+		<key>authors</key>
+		<array>
+			<string>Agil</string>
+			<string>David</string>
+		</array>
+		<key>publisher</key>
+		<string>David publishing</string>
+		<key>publishDate</key>
+		<date>2020-09-28T21:06:24Z</date>
+	</dict>
+	<dict>
+		<key>bookID</key>
+		<string>David123123</string>
+		<key>bookName</key>
+		<string>How to write Swift code</string>
+		<key>description</key>
+		<string>The book showing how people can write code better and smarter using Swift programing language</string>
+		<key>authors</key>
+		<array>
+			<string>Agil</string>
+			<string>David</string>
+		</array>
+		<key>publisher</key>
+		<string>David publishing</string>
+		<key>publishDate</key>
+		<date>2020-09-28T21:06:24Z</date>
+	</dict>
+</array>
+</plist>

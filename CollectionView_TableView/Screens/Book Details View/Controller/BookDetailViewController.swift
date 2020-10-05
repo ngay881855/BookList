@@ -1,6 +1,6 @@
 //
 //  BookDetailViewController.swift
-//  Design Pattern
+// CollectionView_TableView
 //
 //  Created by Ngay Vong on 9/22/20.
 //
@@ -12,20 +12,20 @@ class BookDetailViewController: UIViewController {
     // MARK: - IBOutlets
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var bookImageView: UIImageView!
-    
+
     // MARK: - Properties
     var volumeInfo: VolumeInfo?
     var bookDetailInfo: [(key: String, value: String)] = []
-    
+
     // MARK: - View Life Cycles
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         // Do any additional setup after loading the view.
         setupUI()
         populateData()
     }
-    
+
     // MARK: - UISetup/Helpers/Actions
     func setupUI() {
         self.tableView.tableFooterView = UIView()
@@ -33,7 +33,7 @@ class BookDetailViewController: UIViewController {
             self.title = title
         }
 
-        if let _ = volumeInfo?.previewLink {
+        if volumeInfo?.previewLink != nil {
             let previewBarButton = UIBarButtonItem(title: "Preview", style: UIBarButtonItem.Style.plain, target: self, action: #selector(self.openLink))
             self.navigationItem.rightBarButtonItem = previewBarButton
         }
@@ -47,14 +47,14 @@ class BookDetailViewController: UIViewController {
         safariVC.delegate = self
         present(safariVC, animated: true, completion: nil)
     }
-    
+
     func populateData() {
         guard let volumeInfo = volumeInfo else { return }
         
         if let urlString = volumeInfo.imageLinks?.smallThumbnail, let url = URL(string: urlString) {
             self.bookImageView.downloadImage(with: url)
         }
-        
+
         convertDataToBookInfo(volumeInfo: volumeInfo)
     }
     
@@ -84,8 +84,8 @@ extension Array where Element == String {
             return self[0]
         }
         var result = self[0]
-        for i in 1 ..< self.count {
-            result += ", \(self[i])"
+        for index in 1 ..< self.count {
+            result += ", \(self[index])"
         }
         return result
     }
@@ -99,7 +99,7 @@ extension BookDetailViewController: SFSafariViewControllerDelegate {
 
 // MARK: TableView Delegate
 extension BookDetailViewController: UITableViewDelegate {
-    
+
 }
 
 // MARK: TableView Datasource
@@ -107,14 +107,14 @@ extension BookDetailViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return bookDetailInfo.count
     }
-    
+
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "BookDetailTableViewCell", for: indexPath) as? BookDetailTableViewCell else {
             fatalError()
         }
-        
+
         cell.configureData(with: bookDetailInfo[indexPath.row])
-        
+
         return cell
     }
 }
