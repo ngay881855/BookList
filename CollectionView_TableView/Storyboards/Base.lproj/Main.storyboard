@@ -51,15 +51,15 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pencil" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="VfF-hQ-f2M">
-                                            <rect key="frame" x="0.0" y="2.5" width="181" height="267"/>
+                                            <rect key="frame" x="10" y="12.5" width="161" height="237"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="VfF-hQ-f2M" secondAttribute="height" multiplier="2:3" id="fFJ-ec-GAe"/>
-                                                <constraint firstAttribute="height" constant="120" id="pG7-2o-GwY"/>
+                                                <constraint firstAttribute="height" constant="150" id="pG7-2o-GwY"/>
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iLA-Nz-scd">
-                                            <rect key="frame" x="8" y="279.5" width="165" height="79.5"/>
+                                            <rect key="frame" x="8" y="261.5" width="165" height="97.5"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" relation="lessThanOrEqual" constant="100" id="USQ-VX-SWl"/>
                                             </constraints>
@@ -69,12 +69,12 @@
                                         </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="VfF-hQ-f2M" firstAttribute="top" secondItem="yoX-Jh-mdI" secondAttribute="top" id="NNt-Mc-S9A"/>
-                                        <constraint firstAttribute="trailing" secondItem="VfF-hQ-f2M" secondAttribute="trailing" id="QOc-0z-HDh"/>
+                                        <constraint firstItem="VfF-hQ-f2M" firstAttribute="top" secondItem="yoX-Jh-mdI" secondAttribute="top" constant="10" id="NNt-Mc-S9A"/>
+                                        <constraint firstAttribute="trailing" secondItem="VfF-hQ-f2M" secondAttribute="trailing" constant="10" id="QOc-0z-HDh"/>
                                         <constraint firstItem="iLA-Nz-scd" firstAttribute="leading" secondItem="yoX-Jh-mdI" secondAttribute="leading" constant="8" id="XhY-Q6-GYZ"/>
                                         <constraint firstAttribute="bottom" secondItem="iLA-Nz-scd" secondAttribute="bottom" constant="8" id="ch6-UJ-deJ"/>
-                                        <constraint firstItem="iLA-Nz-scd" firstAttribute="top" secondItem="VfF-hQ-f2M" secondAttribute="bottom" constant="8" id="ikI-Hq-vR8"/>
-                                        <constraint firstItem="VfF-hQ-f2M" firstAttribute="leading" secondItem="yoX-Jh-mdI" secondAttribute="leading" id="uYW-cf-QfT"/>
+                                        <constraint firstItem="iLA-Nz-scd" firstAttribute="top" secondItem="VfF-hQ-f2M" secondAttribute="bottom" constant="10" id="ikI-Hq-vR8"/>
+                                        <constraint firstItem="VfF-hQ-f2M" firstAttribute="leading" secondItem="yoX-Jh-mdI" secondAttribute="leading" constant="10" id="uYW-cf-QfT"/>
                                         <constraint firstAttribute="trailing" secondItem="iLA-Nz-scd" secondAttribute="trailing" constant="8" id="xKE-FA-AEW"/>
                                     </constraints>
                                 </collectionViewCellContentView>
