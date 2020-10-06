@@ -14,6 +14,6 @@ A mini project demonstrate using of CollectionView, TableView and Google API to 
 ## Images
 
 <p align="center">
-  <img src="https://github.com/ngay881855/BookList/blob/master/GIFs/ezgif-BookList_1.gif" height="600" />
-  <img src="https://github.com/ngay881855/BookList/blob/master/GIFs/ezgif-BookList_2.gif" height="600" />
+  <imgs tyle="margin:0px; padding:10px;" src="https://github.com/ngay881855/BookList/blob/master/GIFs/ezgif-BookList_1.gif" height="600" />
+  <img style="margin:0px; padding:10px;" src="https://github.com/ngay881855/BookList/blob/master/GIFs/ezgif-BookList_2.gif" height="600" />
 </p>
