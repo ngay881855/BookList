@@ -2,15 +2,19 @@
 A mini project demonstrate using of CollectionView, TableView and Google API to show book list, book details
 
 ## Forking the code
-- Before compiling the code, make sure you have CocoaPods installed
-### Using [CocoaPods](https://cocoapods.org):
+- Before compiling the code, make sure you have SwiftLint installed on your local machine
+### Using [Homebrew](http://brew.sh/):
 
-   Simply run these commands in terminal in the project root directory:
+```
+brew install swiftlint
+```
 
-   ```ruby
-   pod deintegrate
-   pod install
-   ```
+## Utilizes
+- UITableView
+- UICollectionView
+- SafariServices
+- Google Books API
+
 ## Images
 
 <p align="center">
